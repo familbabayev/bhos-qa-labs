@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id "org.sonarqube" version "3.3"
+    id 'jacoco'
 }
 
 group 'org.example'
@@ -25,4 +26,15 @@ sonarqube {
         property "sonar.organization", "familbabayev"
         property "sonar.host.url", "https://sonarcloud.io"
     }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
+test.finalizedBy jacocoTestReport
+
+tasks.named('sonarqube').configure {
+    dependsOn test
 }
