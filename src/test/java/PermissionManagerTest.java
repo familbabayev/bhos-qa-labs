@@ -20,4 +20,10 @@ public class PermissionManagerTest {
         permissionManager.setPermissionLevel(PermissionLevel.USER);
         assertEquals("User", permissionManager.getmCurrentLevel());
     }
+
+    @Test
+    void setPermissionLevel() {
+        permissionManager.setPermissionLevel(PermissionLevel.ADMIN);
+        assertEquals("Admin", permissionManager.getmCurrentLevel());
+    }
 }
