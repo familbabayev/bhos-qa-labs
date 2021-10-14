@@ -19,6 +19,15 @@ class ClassroomTest {
         assertEquals(12, Classroom.multiplication(3,4));
     }
 
+    @Test
+    void division() {
+        assertEquals(2.0, Classroom.division(6,3));
+    }
+
+    @Test
+    void power() {
+        assertEquals(64, Classroom.power(4,3));
+    }
 
 
 }
