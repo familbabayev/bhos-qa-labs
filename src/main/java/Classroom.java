@@ -15,11 +15,13 @@ public class Classroom {
     }
 
 
-    public byte make_hash () {
+    public byte[] make_hash () {
         byte[] data1 = "0123456789".getBytes("UTF-8");
 
         MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
         byte[] digest = messageDigest.digest(data1);
+
+        return digest;
     }
 
 }
