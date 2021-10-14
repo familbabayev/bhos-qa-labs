@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PermissionLevel {
+public enum PermissionLevel {
+    ADMIN,
+    DEVELOPER,
+    USER
 }

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-03T18:50:08" hostname="DESKTOP-EKKG013" time="0.037">
-  <properties/>
-  <testcase name="sumArrayTest()" classname="MainTest" time="0.037"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
