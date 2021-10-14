@@ -1,4 +1,5 @@
 import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 public class Classroom {
 
@@ -15,13 +16,12 @@ public class Classroom {
     }
 
 
-    public byte[] make_hash () {
-        byte[] data1 = "0123456789".getBytes("UTF-8");
+    public void make_hash () throws NoSuchAlgorithmException {
+        String data = "0123456789";
 
         MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
-        byte[] digest = messageDigest.digest(data1);
+        byte[] digest = messageDigest.digest(data.getBytes());
 
-        return digest;
     }
 
 }
