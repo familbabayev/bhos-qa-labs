@@ -36,16 +36,18 @@ public class Classroom {
     }
 
     public static int factorial (int n) {
-        int i, fact = 1;
-        for(i=1 ;i<=n ; i++){
+        int fact = 1;
+        for(int i=1 ;i<=n ; i++){
             fact=fact*i;
         }
         return fact;
     }
 
-    public void make_hash (String data) throws NoSuchAlgorithmException {
+    public byte[] makeHash (String data) throws NoSuchAlgorithmException {
         MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
         byte[] digest = messageDigest.digest(data.getBytes());
+
+        return digest;
     }
 
 }
