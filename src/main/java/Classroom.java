@@ -16,7 +16,7 @@ public class Classroom {
     }
 
     public static double division (int a, int b) {
-        return a / b;
+        return (double) a / b;
     }
 
     public static int power (int a, int b) {
@@ -45,9 +45,7 @@ public class Classroom {
 
     public byte[] makeHash (String data) throws NoSuchAlgorithmException {
         MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
-        byte[] digest = messageDigest.digest(data.getBytes());
-
-        return digest;
+        return messageDigest.digest(data.getBytes());
     }
 
 }
