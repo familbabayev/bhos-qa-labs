@@ -1,0 +1,3 @@
+# Coverage
+
+I learned new two new concepts which is code coverage and branch coverage. Code coverage simply means how much of my source code is tested and branch coverage means how many of the branhces in a codebase are using tests. To see it in practice I used SonarCloud free tier and it found bugs, code smells and security hotspots in my code.  SonarCloud also shows code coverage percentage which is very useful metric that allows me to asses the coverage of my testing scripts.
