@@ -39,13 +39,11 @@ class Springproj2ApplicationTests {
 		securecon.connect();
 
 		Certificate[] certs = securecon.getServerCertificates();
-//		System.out.println("Server Certificate: "+certs[0].toString());
 
-		FileInputStream fis = new FileInputStream("crt.cer");
+		FileInputStream fis = new FileInputStream("mockapicert.cer");
 
 		CertificateFactory fac = CertificateFactory.getInstance("X509");
 		X509Certificate cert = (X509Certificate) fac.generateCertificate(fis);
-
 
 		assertEquals(cert, certs[0]);
 	}
@@ -78,7 +76,6 @@ class Springproj2ApplicationTests {
 		}
 
 		assertEquals(true, isUnique);
-
 	}
 
 
