@@ -19,7 +19,7 @@ jobs:
           java-version: '16'
           distribution: 'adopt'
           cache: gradle
-      - name: Firebase key setup
+      - name: Creating Firebase key file
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: echo $FIREBASE_TOKEN > ./firebasekey.json
