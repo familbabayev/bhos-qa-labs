@@ -19,15 +19,17 @@ jobs:
           java-version: '16'
           distribution: 'adopt'
           cache: gradle
-      - name: Setting up Firebase token file
-        env:
-          FIREBASE_SECRET: ${{ secrets.FIREBASE_TOKEN }}
-        run: echo $FIREBASE_TOKEN > ./firebasekey.json
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
       - name: Build with Gradle
         run: ./gradlew build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_TOKEN }}"
+          projectId: springproj3
+          channelId: live
       - name: Integration Test
         run: ./gradlew test --tests "*"
