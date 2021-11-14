@@ -33,7 +33,7 @@ class Springprog5ApplicationTests {
 		jsonObj.put("returnSecureToken", true);
 
 		HttpEntity<String> entity = new HttpEntity<>(jsonObj.toString(), headers);
-		ResponseEntity<String> response = restTemplate.exchange( FIREBASE_SIGNIN + WEB_API_KEY, HttpMethod.POST, entity, String.class);
+		ResponseEntity<String> response = restTemplate.exchange(FIREBASE_SIGNIN + WEB_API_KEY, HttpMethod.POST, entity, String.class);
 
 		JSONObject resBody = new JSONObject(response.getBody());
 		String idToken = resBody.getString("idToken");
@@ -46,14 +46,12 @@ class Springprog5ApplicationTests {
 		HttpEntity<String> entity2 = new HttpEntity<>(null, headers2);
 		ResponseEntity<String> response2 = restTemplate.exchange(FIRESTORE_USERS + localId, HttpMethod.GET, entity2, String.class);
 
-
 		JSONObject resBody2 = new JSONObject(response2.getBody());
 		JSONObject fields = resBody2.getJSONObject("fields");
 
 		JSONObject name = fields.getJSONObject("name");
 		JSONObject surname = fields.getJSONObject("surname");
 		JSONObject phone = fields.getJSONObject("phone");
-
 
 		assertEquals("Bob", name.getString("stringValue"));
 		assertEquals("Weir", surname.getString("stringValue"));
