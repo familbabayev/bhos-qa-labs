@@ -31,7 +31,7 @@ class Springproj6ApplicationTests {
 		String idToken = authResJson.getString("idToken");
 		String userId = authResJson.getString("localId");
 
-		String uploadUrl = String.format("%s/%s%%2F%sc%s", FIREBASE_STORAGE, userId, "avatar.jpg", System.getenv("FIREBASE_TOKEN"));
+		String uploadUrl = String.format("%s/%s%%2F%s?alt=media&token=%s", FIREBASE_STORAGE, userId, "avatar.jpg", System.getenv("FIREBASE_TOKEN"));
 		String uploadedFile = UtilityFunctions.uploadFile(uploadUrl, idToken, "avatar.jpg");
 		String fileReference = new JSONObject(uploadedFile).getString("name");
 
