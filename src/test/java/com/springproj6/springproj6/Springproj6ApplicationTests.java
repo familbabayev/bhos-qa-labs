@@ -20,7 +20,7 @@ class Springproj6ApplicationTests {
 	String FIREBASE_STORAGE = "https://firebasestorage.googleapis.com/v0/b/springproj3.appspot.com/o";
 
 	@Test
-	public void test() throws IOException, InterruptedException, JSONException {
+	public void test1() throws IOException, InterruptedException, JSONException {
 		JSONObject authData = new JSONObject();
 		authData.put("email", "bobweir@gmail.com");
 		authData.put("password", "bobweir");
@@ -31,7 +31,7 @@ class Springproj6ApplicationTests {
 		String idToken = authResJson.getString("idToken");
 		String userId = authResJson.getString("localId");
 
-		String uploadUrl = String.format("%s/%s%%2F%sc%s", FIREBASE_STORAGE, userId, "avatar.jpg", WEB_API_KEY);
+		String uploadUrl = String.format("%s/%s%%2F%sc%s", FIREBASE_STORAGE, userId, "avatar.jpg", System.getenv("FIREBASE_TOKEN"));
 		String uploadedFile = UtilityFunctions.uploadFile(uploadUrl, idToken, "avatar.jpg");
 		String fileReference = new JSONObject(uploadedFile).getString("name");
 
@@ -50,7 +50,7 @@ class Springproj6ApplicationTests {
 		String avatarReference = new JSONObject(userDetails).getJSONObject("fields").getJSONObject("avatar").getString("stringValue");
 		String avatarReferenceUrlEncoded = URLEncoder.encode(avatarReference, StandardCharsets.UTF_8.toString());
 
-		String url = String.format("%s/%s?alt=media&token=%s", FIREBASE_STORAGE, avatarReferenceUrlEncoded, WEB_API_KEY);
+		String url = String.format("%s/%s?alt=media&token=%s", FIREBASE_STORAGE, avatarReferenceUrlEncoded, System.getenv("FIREBASE_TOKEN"));
 
 		assertEquals(200, UtilityFunctions.check(url, idToken));
 	}
