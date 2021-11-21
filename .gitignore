@@ -33,5 +33,6 @@ out/
 /nbdist/
 /.nb-gradle/
 
+firebasekey.json
 ### VS Code ###
 .vscode/
