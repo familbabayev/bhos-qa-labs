@@ -31,7 +31,7 @@ class Springproj6ApplicationTests {
 		String idToken = authResJson.getString("idToken");
 		String userId = authResJson.getString("localId");
 
-		String uploadUrl = String.format("%s/%s%%2F%s?alt=media&token=%s", FIREBASE_STORAGE, userId, "avatar.jpg", System.getenv("FIREBASE_TOKEN"));
+		String uploadUrl = String.format("%s/%s%%2F%s?alt=media&token=%s", FIREBASE_STORAGE, userId, "avatar.jpg", System.getenv("ACCESS_TOKEN"));
 		String uploadedFile = UtilityFunctions.uploadFile(uploadUrl, idToken, "avatar.jpg");
 		String fileReference = new JSONObject(uploadedFile).getString("name");
 
@@ -50,7 +50,7 @@ class Springproj6ApplicationTests {
 		String avatarReference = new JSONObject(userDetails).getJSONObject("fields").getJSONObject("avatar").getString("stringValue");
 		String avatarReferenceUrlEncoded = URLEncoder.encode(avatarReference, StandardCharsets.UTF_8.toString());
 
-		String url = String.format("%s/%s?alt=media&token=%s", FIREBASE_STORAGE, avatarReferenceUrlEncoded, System.getenv("FIREBASE_TOKEN"));
+		String url = String.format("%s/%s?alt=media&token=%s", FIREBASE_STORAGE, avatarReferenceUrlEncoded, System.getenv("ACCESS_TOKEN"));
 
 		assertEquals(200, UtilityFunctions.check(url, idToken));
 	}
