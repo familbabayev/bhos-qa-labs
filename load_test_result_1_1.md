@@ -1,6 +1,6 @@
 # Load test 1
 
-![](load_test_result_1_1.PNG)
+![image](load_test_result_1_1.png)
 
 ## Test environment specifications
 ##### OS Name
