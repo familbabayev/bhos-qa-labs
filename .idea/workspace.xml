@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a213b8b-014f-491f-b00d-1f2df9d4d5d5" name="Changes" comment="" />
+    <list default="true" id="4a213b8b-014f-491f-b00d-1f2df9d4d5d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/uat_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/uat_report.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -354,7 +356,7 @@
       <workItem from="1639124017420" duration="22101000" />
       <workItem from="1639733661561" duration="15722000" />
       <workItem from="1639839712732" duration="1439000" />
-      <workItem from="1639895679996" duration="33413000" />
+      <workItem from="1639895679996" duration="33727000" />
     </task>
     <servers />
   </component>

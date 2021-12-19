@@ -17,4 +17,4 @@
 
 ##### Findings & Output
 
-Out of all 11 test, 9 of them passed and the 2 - Password change and PIN change failed because, these functionalities were not available and missing.
+Out of all 11 tests, 9 of them passed and the 2 - Password change and PIN change failed because, these functionalities were not available and missing.
