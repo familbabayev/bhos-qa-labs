@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a213b8b-014f-491f-b00d-1f2df9d4d5d5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springproj6" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springproj6" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="develop" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="1zUolrBNpM4DE9XO36KamYuuLaj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FAMIL\TERM 7\QA Management\bhos-qa-labs" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Springproj12Application">
+    <configuration name="Springprog8ApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springprog8.springprog8.Springprog8ApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Springprog8ApplicationTests.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springprog8.springprog8.Springprog8ApplicationTests.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Springprog8ApplicationTests.verifierGeneratorUtilityFunc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springprog8.springprog8.Springprog8ApplicationTests.verifierGeneratorUtilityFunc&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Springproj7ApplicationTests.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.springproj7.springproj7.Springproj7ApplicationTests.test1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="bhos-qa-labs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Springprog5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springprog5.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprog5.springprog5.Springprog5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springprog8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springprog8.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprog8.springprog8.Springprog8Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj10Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj10.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springproj10.Springproj10Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj11.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springproj11.Springproj11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj12Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj12.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springproj12.Springproj12Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj1.springproj1.Springproj1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springproj1.Springproj1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj2.springproj2.Springproj2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj3.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj3.springproj3.Springproj3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj4.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj4.springproj4.Springproj4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj6.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj6.springproj6.Springproj6Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj7.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj7.springproj7.Springproj7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springproj9Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springproj9.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springproj9.springproj9.Springproj9Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.bhos-qa-labs" />
+        <item itemvalue="Gradle.Springprog8ApplicationTests" />
+        <item itemvalue="Gradle.Springprog8ApplicationTests.verifierGeneratorUtilityFunc" />
+        <item itemvalue="Gradle.Springprog8ApplicationTests.test" />
+        <item itemvalue="Gradle.Springproj7ApplicationTests.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a213b8b-014f-491f-b00d-1f2df9d4d5d5" name="Changes" comment="" />
+      <created>1634212197762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634212197762</updated>
+      <workItem from="1634212197764" duration="20229000" />
+      <workItem from="1634670236969" duration="789000" />
+      <workItem from="1634753648887" duration="5018000" />
+      <workItem from="1634803893698" duration="2082000" />
+      <workItem from="1634986460427" duration="2684000" />
+      <workItem from="1635076920194" duration="1733000" />
+      <workItem from="1635089321165" duration="3857000" />
+      <workItem from="1635100026095" duration="1041000" />
+      <workItem from="1635101988218" duration="1238000" />
+      <workItem from="1635436299934" duration="482000" />
+      <workItem from="1635436962129" duration="11093000" />
+      <workItem from="1635490828802" duration="30597000" />
+      <workItem from="1635570747506" duration="20261000" />
+      <workItem from="1636892327878" duration="17270000" />
+      <workItem from="1637170636982" duration="623000" />
+      <workItem from="1637507301442" duration="17732000" />
+      <workItem from="1637527296178" duration="122000" />
+      <workItem from="1637590746749" duration="7742000" />
+      <workItem from="1637773416820" duration="1299000" />
+      <workItem from="1637826143317" duration="18445000" />
+      <workItem from="1638251844088" duration="11604000" />
+      <workItem from="1638358277953" duration="26736000" />
+      <workItem from="1638431252401" duration="9850000" />
+      <workItem from="1638456849768" duration="10051000" />
+      <workItem from="1638538125957" duration="2448000" />
+      <workItem from="1638616381608" duration="12029000" />
+      <workItem from="1638692400024" duration="6352000" />
+      <workItem from="1639071825803" duration="1128000" />
+      <workItem from="1639124017420" duration="22101000" />
+      <workItem from="1639733661561" duration="15722000" />
+      <workItem from="1639839712732" duration="1439000" />
+      <workItem from="1639895679996" duration="33413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
